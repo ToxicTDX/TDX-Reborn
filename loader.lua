@@ -1,13 +1,3 @@
-local marketservice = cloneref(game:GetService('MarketplaceService'))
-local id            = game.PlaceId
-local originalid    = marketservice:GetProductInfo(7606564092).Creator.CreatorTargetId
-
-local games = {
-    [16732694052] = 'https://github.com/ToxicTDX/TDX-Reborn/blob/main/Fisch',
-    
-
-if games[id] then
-    loadstring(game:HttpGet(games[id]))()
-elseif games[originalid] then
-    loadstring(game:HttpGet(games[originalid]))()
+if game.PlaceId == 16732694052 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/TDX-Reborn/refs/heads/main/Fisch?token=GHSAT0AAAAAAC4T7S5E55CP44ECXTK5RAI6Z4HJUNA"))()
 end
