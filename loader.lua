@@ -3,7 +3,7 @@ local id            = game.PlaceId
 local originalid    = marketservice:GetProductInfo(7606564092).Creator.CreatorTargetId
 
 local games = {
-    [16732694052] = 'https://github.com/xataxell/azure-hub/blob/main/Games/Fisch?raw=true',
+    [16732694052] = 'https://github.com/ToxicTDX/TDX-Reborn/blob/main/Fisch',
     
 
 if games[id] then
