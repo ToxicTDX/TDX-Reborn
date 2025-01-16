@@ -1,3 +1,5 @@
+-- feel free to skid i dont really care
+
 local library = {count = 0, queue = {}, callbacks = {}, rainbowtable = {}, toggled = true, binds = {}};
 local defaults;
 do
